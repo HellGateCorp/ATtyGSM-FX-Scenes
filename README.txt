@@ -1,28 +1,29 @@
 																																									ATty
 
-ATty is an tool that can used to with any 2G/3G/4G USB dongles. This tool can be used to test basis device features such as network connection, make/receive voice calls, send/receive SMS, network selection etc. In addition the tool has enhanced diagnostics features that can be used to troubleshoot network or device issues.
+ATty is an tool that can used with any 2G/3G/4G USB dongles. This tool can be used to test basis device features such as network connection, make/receive voice calls, send/receive SMS, network selection etc. In addition the tool has enhanced diagnostics features that can be used to troubleshoot network or device issues.
 -
-ATty is a browser-based tool that works on all popular browsers (IE, Firefox and Chrome). The tool can automatically detect and connect to the modem device connected to the computer. This tutorial will explain how to use ATty to test device features and troubleshoot issues.
+ATty is a JavaFX based Open-Source tool that works fine with JRE 1.8.0 but should run also with any other Java Distr. with correct linked Pathvariables. The tool can automatically detect and connect to the modem device connected to the computer. This tutorial will explain how to use ATty to test device features and troubleshoot issues.
 -
 ATty
 Connect the Device
 Install the drivers for the device that is provided by the manufacturer. In most cases, the drivers packaged as part of the device connection manager application (ex ‘Mobile Partner’ for Huawei USB modems).Now connect the device to your computer. When you press ‘AutoConnect’, ATty will check the all the available ports on the computer and try to connect to thde modem device. You can also press ‘Find Ports’ and connect the device’s AT Command Port if you have that information avaialble.
 +
 Diagnostics
+
 In the ‘Diagnostics’ tab, you can get useful diagnostics information about the device and the network. This can help troubleshoot many of the common issues seen by users.Steps to get more additional diagnostics data will be explained later.
 +
 Network Connection
+
 Network connection can be tested under the ‘Data Call’ tab. In order to connect to the network, a connection profile (PDP Context) should created. Create a connetion profile as shown below. APN information is network specific, usually you can search the google (ex. “AT&T APN”) to get that information. Once the connection profile is created, just press the ‘Connect’ button. To test whether is connection is sucessful, press ‘Show IP Address’ button.
 -
-ATty
 Voice Call
+
 With ATty you can make/receive voice calls on modems that support this feature. For outgoing call, enter the number and press the ‘Dial’ button in the ‘Voice Call’ tab. For incoming calls, ATty will automatically detect the incoming call and alert the user.
 -
-ATty
 SMS
+
 SMS messages can be sent through ATty. In the ‘SMS’ tab, enter the phone number and the message and just send. You can also read the stored SMS messages from teh device. Currently only ‘Text Mode’ messages are supportes, ‘PDU Mode’ message is not supported. You can check the SMS Message setting in the ‘Diagnostics’ tab.
 -
-ATty
 Common Troubleshooting Steps
 In the ‘Diagnostics’ tab, you can perform the following diagnosis.
 -
