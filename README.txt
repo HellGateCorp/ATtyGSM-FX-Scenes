@@ -1,6 +1,6 @@
 																																									ATty
 
-ATty is an tool that can used with any 2G/3G/4G USB dongles. This tool can be used to test basis device features such as network connection, make/receive voice calls, send/receive SMS, network selection etc. In addition the tool has enhanced diagnostics features that can be used to troubleshoot network or device issues.
+ATty is an tool that can used with any 2G/3G/4G USB dongles. This tool can test basis device features such as network connection, make/receive voice calls, send/receive SMS, network selection etc. In addition the tool has enhanced diagnostics features that can be used to troubleshoot network or device issues.
 -
 ATty is a JavaFX based Open-Source tool that works fine with JRE 1.8.0 but should run also with any other Java Distr. with correct linked Pathvariables. The tool can automatically detect and connect to the modem device connected to the computer. This tutorial will explain how to use ATty to test device features and troubleshoot issues.
 -
