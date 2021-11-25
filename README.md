@@ -5,12 +5,7 @@
 
 
 
-   
-   / \|_   _| |_ _   _
-  / _ \ | | | __| | | |
- / ___ \| | | |_| |_| |
-/_/   \_\_|  \__|\__, |
-                 |___/						
+ATty			
 
 ATty is an tool that can used with any 2G/3G/4G USB dongles. This tool can test basis device features such as network connection, make/receive voice calls, send/receive SMS, network selection etc. In addition the tool has enhanced diagnostics features that can be used to troubleshoot network or device issues.
 -
