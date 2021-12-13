@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="935.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+      <SplitPane dividerPositions="0.0037593984962406013, 0.16165413533834586, 0.21321160042964554, 0.2647690655209452" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="933.0" prefWidth="859.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+            <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Separator layoutX="12.0" layoutY="21.0" prefHeight="2.0" prefWidth="103.0" />
+                  <Separator layoutX="14.0" layoutY="133.0" prefHeight="3.0" prefWidth="438.0" />
+                  <Button blendMode="DIFFERENCE" focusTraversable="false" layoutX="327.0" layoutY="91.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="107.0" text="Disconnect">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Separator layoutX="310.0" layoutY="20.0" prefHeight="3.0" prefWidth="138.0" />
+                  <Label layoutX="123.0" layoutY="1.0" prefHeight="29.0" prefWidth="180.0" text="PORT CONFIGURATION" underline="true">
+                     <font>
+                        <Font name="Phosphate Inline" size="18.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="502.0" layoutY="133.0" prefHeight="2.0" prefWidth="333.0" />
+                  <Separator layoutX="506.0" layoutY="18.0" prefHeight="4.0" prefWidth="105.0" />
+                  <Label alignment="CENTER" layoutX="609.0" prefHeight="29.0" prefWidth="120.0" text="CONNECTION" underline="true">
+                     <font>
+                        <Font name="Phosphate Inline" size="18.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="729.0" layoutY="19.0" prefHeight="4.0" prefWidth="108.0" />
+                  <Separator layoutX="11.0" layoutY="21.0" orientation="VERTICAL" prefHeight="112.0" prefWidth="6.0" />
+                  <Separator layoutX="449.0" layoutY="22.0" orientation="VERTICAL" prefHeight="112.0" prefWidth="6.0" />
+                  <Separator layoutX="502.0" layoutY="22.0" orientation="VERTICAL" prefHeight="112.0" prefWidth="6.0" />
+                  <Separator layoutX="837.0" layoutY="17.0" orientation="VERTICAL" prefHeight="112.0" prefWidth="5.0" />
+                  <Button defaultButton="true" layoutX="181.0" layoutY="90.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="105.0" text="Connect">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button defaultButton="true" layoutX="34.0" layoutY="91.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="105.0" text="Find Port" underline="true">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="509.0" layoutY="59.0" prefHeight="36.0" prefWidth="99.0" text="Manufacturer:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" layoutX="510.0" layoutY="93.0" prefHeight="33.0" prefWidth="96.0" text="Status:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" layoutX="507.0" layoutY="25.0" prefHeight="36.0" prefWidth="99.0" text="Device Model:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="613.0" layoutY="28.0" prefHeight="29.0" prefWidth="215.0" promptText="Not Available">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></TextField>
+                  <TextField layoutX="611.0" layoutY="62.0" prefHeight="29.0" prefWidth="215.0" promptText="Not Available">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextField>
+                  <TextField layoutX="613.0" layoutY="95.0" prefHeight="29.0" prefWidth="215.0" promptText="Not Connected">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextField>
+                  <MenuButton layoutX="59.0" layoutY="38.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="172.0" text="/dev/tty.usbmodem">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                    </items>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </MenuButton>
+                  <MenuButton layoutX="344.0" layoutY="37.0" mnemonicParsing="false" text="115200">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Action 2" />
+                     </items>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </MenuButton>
+                  <Label alignment="CENTER" layoutX="9.0" layoutY="34.0" prefHeight="36.0" prefWidth="56.0" text="Port:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" layoutX="236.0" layoutY="34.0" prefHeight="36.0" prefWidth="108.0" text="Baudrate(bbs):">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Hyperlink layoutX="13.0" layoutY="8.0" prefHeight="32.0" prefWidth="271.0" text="How to use with Arduino Shield?" textFill="#0c0ce4" underline="true">
+                     <font>
+                        <Font name="Bradley Hand Bold" size="17.0" />
+                     </font>
+                  </Hyperlink>
+                  <Button defaultButton="true" layoutX="309.0" layoutY="7.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="146.0" text="Need Support?">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button defaultButton="true" layoutX="528.0" layoutY="7.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="105.0" text="Save">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button blendMode="DIFFERENCE" layoutX="704.0" layoutY="7.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="107.0" text="Clear">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Separator layoutX="486.0" layoutY="-5.0" orientation="VERTICAL" prefHeight="53.0" prefWidth="4.0" />
+                  <Separator layoutX="667.0" layoutY="-6.0" orientation="VERTICAL" prefHeight="53.0" prefWidth="2.0" />
+                  <Separator layoutX="276.0" layoutY="-9.0" orientation="VERTICAL" prefHeight="53.0" prefWidth="4.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="849.0">
+               <children>
+                  <SplitMenuButton alignment="CENTER" blendMode="DARKEN" layoutX="3.0" layoutY="2.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="847.0" text="&lt;&lt;&lt;      &lt;&lt;&lt;      &lt;&lt;&lt;      E-Mail - Tool      &gt;&gt;&gt;      &gt;&gt;&gt;      &gt;&gt;&gt;">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                    </items>
+                     <font>
+                        <Font name="Phosphate Inline" size="19.0" />
+                     </font>
+                  </SplitMenuButton>
+               </children></AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="733.0" prefWidth="847.0">
+               <children>
+                  <TextArea blendMode="EXCLUSION" editable="false" layoutX="481.0" layoutY="37.0" prefHeight="622.0" prefWidth="347.0" promptText="AT - Commands Output ...">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font>
+                  </TextArea>
+                  <Label layoutX="34.0" layoutY="1.0" prefHeight="36.0" prefWidth="70.0" text="E-Mail" underline="true">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="460.0" layoutY="25.0" orientation="VERTICAL" prefHeight="652.0" prefWidth="4.0" />
+                  <Separator layoutX="461.0" layoutY="19.0" prefHeight="4.0" prefWidth="383.0" />
+                  <Separator layoutX="465.0" layoutY="675.0" prefHeight="4.0" prefWidth="379.0" />
+                  <Separator layoutX="10.0" layoutY="22.0" orientation="VERTICAL" prefHeight="652.0" prefWidth="6.0" />
+                  <Separator layoutX="13.0" layoutY="20.0" prefHeight="3.0" prefWidth="16.0" />
+                  <Separator layoutX="101.0" layoutY="18.0" prefHeight="4.0" prefWidth="341.0" />
+                  <Separator layoutX="441.0" layoutY="19.0" orientation="VERTICAL" prefHeight="659.0" prefWidth="7.0" />
+                  <Separator layoutX="13.0" layoutY="676.0" prefHeight="4.0" prefWidth="431.0" />
+                  <Separator layoutX="843.0" layoutY="21.0" orientation="VERTICAL" prefHeight="653.0" prefWidth="9.0" />
+                  <Label layoutX="101.0" layoutY="46.0" prefHeight="29.0" prefWidth="138.0" text="E-Mail Testing Tool for ">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Label>
+                  <Button defaultButton="true" layoutX="36.0" layoutY="543.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Send">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="36.0" layoutY="340.0" prefHeight="14.0" prefWidth="78.0" text="Message">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="54.0" layoutY="78.0" prefHeight="36.0" prefWidth="125.0" text="SMTP Server:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="172.0" layoutY="83.0" prefHeight="29.0" prefWidth="245.0" promptText="...">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="172.0" layoutY="116.0" prefHeight="29.0" prefWidth="245.0" promptText="...">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Separator layoutX="26.0" layoutY="358.0" prefHeight="3.0" prefWidth="392.0" />
+                  <TextArea blendMode="EXCLUSION" editable="false" layoutX="38.0" layoutY="373.0" prefHeight="138.0" prefWidth="365.0" promptText="Tipp your Message here ...">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font>
+                  </TextArea>
+                  <MenuButton layoutX="31.0" layoutY="45.0" mnemonicParsing="false" text="Telit">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Action 2" />
+                     </items>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </MenuButton>
+                  <Label layoutX="50.0" layoutY="113.0" prefHeight="36.0" prefWidth="125.0" text="Sender E-Mail:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="38.0" layoutY="177.0" prefHeight="36.0" prefWidth="136.0" text="E-Mail Subject:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="89.0" layoutY="245.0" prefHeight="36.0" prefWidth="125.0" text="Password:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="39.0" layoutY="145.0" prefHeight="36.0" prefWidth="136.0" text="Receiver E-Mail:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="75.0" layoutY="212.0" prefHeight="36.0" prefWidth="108.0" text="User Name:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="170.0" layoutY="181.0" prefHeight="29.0" prefWidth="245.0" promptText="...">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="170.0" layoutY="215.0" prefHeight="29.0" prefWidth="245.0" promptText="...">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="170.0" layoutY="249.0" prefHeight="29.0" prefWidth="245.0" promptText="...">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="173.0" layoutY="148.0" prefHeight="29.0" prefWidth="245.0" promptText="...">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="129.0" layoutY="277.0" prefHeight="36.0" prefWidth="40.0" text="CID:">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <MenuButton layoutX="170.0" layoutY="281.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="46.0">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Action 2" />
+                     </items>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </MenuButton>
+                  <Separator layoutX="26.0" layoutY="526.0" prefHeight="3.0" prefWidth="392.0" />
+                  <Separator layoutX="415.0" layoutY="358.0" orientation="VERTICAL" prefHeight="166.0" prefWidth="6.0" />
+                  <Separator layoutX="23.0" layoutY="361.0" orientation="VERTICAL" prefHeight="166.0" prefWidth="6.0" />
+                  <Separator layoutX="25.0" layoutY="538.0" orientation="VERTICAL" prefHeight="41.0" prefWidth="7.0" />
+                  <Separator layoutX="139.0" layoutY="536.0" orientation="VERTICAL" prefHeight="44.0" prefWidth="6.0" />
+                  <Separator layoutX="29.0" layoutY="536.0" prefHeight="3.0" prefWidth="113.0" />
+                  <Separator layoutX="29.0" layoutY="579.0" prefHeight="3.0" prefWidth="113.0" />
+                  <Label layoutX="239.0" layoutY="46.0" prefHeight="29.0" prefWidth="138.0" text="TELIT MODULES" underline="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+         </items>
+      </SplitPane>
+  </children>
+</VBox>
